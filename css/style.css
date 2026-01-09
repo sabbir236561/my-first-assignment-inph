@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.Inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.section-heading {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 58px;
+    margin-top: 45px;
+}
+
+.section-heading p {
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+nav {
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.btn {
+    background-color: #469165;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: #ffffff;
+
+}
+
+#banner {
+    position: relative;
+    height: 100vh;
+    background: url("../assets/hero-bg.png") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-contentainer {
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+}
+
+.access {
+    display: inline-block;
+    background: #e9f7ef;
+    color: #30B868;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.banner-contentainer h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.banner-contentainer p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.banner-button {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 14px 26px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.banner-button a {
+    text-decoration: none;
+}
+
+.banner-button .btn-modify {
+    background-color: none;
+    color: #ffffff;
+    text-align: center;
+    line-height: 19px;
+}
+
+#skills {
+    background-color: #FBFBFB;
+}
+
+#skills .skill-container .skill-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 0 120px 120px 120px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px 0px #0000000f;
+}
+
+
+.skill-card img {
+    background-color: #f95555;
+    padding: 2.5px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.skill-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 22px;
+
+}
+
+.brain {
+    background-color: #ffffff;
+}
+
+.brain-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-container h6 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #469165;
+    font-weight: 600;
+}
+
+.brain-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px;
+    margin: 12px 0 20px;
+    color: #001931;
+
+}
+
+.brain-container p {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.brain-container ul {
+    list-style: none;
+}
+
+.brain-container li {
+    font-size: 16px;
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 12px;
+    color: #001931;
+}
+ 
+.think{
+    border-radius: 12px;
+        background: #f7f6f2;
+        margin: 80px 120px 80px 120px;
+   
+    background-color: #F7F6F2;
+    text-align: center;
+}
+.think .think-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+    color: #002d31;
+    padding-top: 80px;
+    
+    
+}
+.think .think-container p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.think .think-container .small{
+    padding-bottom: 80px;
+    margin-top: 24px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#627382;
+}
+footer{
+    background-color:#001931;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-container .social h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#ffffff;
+    margin-bottom: 16px;
+
+}
+.footer-container .social img{
+   margin-right: 16px;
+}
+footer hr{
+    margin: 0 120px;
+    border-color: #e5e7eb;
+}
+footer p{
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#ffffff;
+    text-align: center;
+}

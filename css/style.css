@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
+   }
 
 .Inter {
     font-family: "Inter", sans-serif;
@@ -21,7 +20,7 @@
     font-weight: 700;
     margin-bottom: 16px;
     line-height: 58px;
-    
+
 }
 
 .section-heading p {
@@ -62,13 +61,15 @@ nav .menu li a {
     color: #ffffff;
 
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
 }
 
+/* end navbar design*/
+
 #banner {
-    position: relative;
     height: 100vh;
     background: url("../assets/hero-bg.png") center/cover no-repeat;
     display: flex;
@@ -77,7 +78,7 @@ nav .menu li a {
     color: white;
 }
 
-.banner-contentainer {
+.banner-container {
     max-width: 900px;
     text-align: center;
     padding: 20px;
@@ -93,13 +94,13 @@ nav .menu li a {
     margin-bottom: 20px;
 }
 
-.banner-contentainer h1 {
+.banner-container h1 {
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
 }
 
-.banner-contentainer p {
+.banner-container p {
     margin-top: 20px;
     font-size: 18px;
     color: #ffffff;
@@ -109,16 +110,14 @@ nav .menu li a {
 .banner-button {
     margin-top: 30px;
     display: flex;
-    gap: 15px;
-    
-    padding: 14px 26px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 16px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    gap: 15px;
+    padding: 14px 26px;
+    border-radius: 4px;
+    font-size: 16px;
+    }
 
 .banner-button a {
     text-decoration: none;
@@ -131,27 +130,28 @@ nav .menu li a {
     padding: 12px 10px;
     line-height: 19px;
 }
-
-#skills {
+/* end banner design*/
+#notes {
     background-color: #FBFBFB;
 }
 
-#skills .skill-container{
+#notes .note-container {
     width: 100%;
     background-color: #FBFBFB;
     text-align: center;
-    
 }
-.skill-container .section-heading h2{
+
+.note-container .section-heading h2 {
     padding-top: 45px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     gap: 24px;
     justify-content: center;
-
 }
-.card{
+
+.card {
     background-color: #ffffff;
     width: 260px;
     padding: 32px 24px;
@@ -159,7 +159,7 @@ nav .menu li a {
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 }
 
-.card .card-icon{
+.card .card-icon {
     width: 52px;
     height: 52px;
     margin: 0 auto 20px;
@@ -176,7 +176,7 @@ nav .menu li a {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .card p {
@@ -184,7 +184,7 @@ nav .menu li a {
     color: #627382;
     line-height: 20px;
 }
-
+/* end card design*/
 .brain {
     background-color: #ffffff;
 }
@@ -204,21 +204,23 @@ nav .menu li a {
     letter-spacing: 1px;
     color: #469165;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 
 .brain-container h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 58px;
-    margin: 12px 0 20px;
+    margin-bottom:20px;
     color: #001931;
 
 }
 
-.brain-container p {
+.brain-container .brain-info p {
+    font-size: 16px;
     color: #627382;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .brain-container ul {
@@ -228,80 +230,88 @@ nav .menu li a {
 .brain-container li {
     font-size: 16px;
     position: relative;
-    padding-left: 26px;
-    margin-bottom: 12px;
     color: #001931;
 }
- 
-.think{
+.brain-container li img{
+    margin-right: 6px;
+}
+
+.think {
     border-radius: 12px;
-     background: #f7f6f2;
+    background: #f7f6f2;
     margin: 80px 120px 80px 120px;
     background-color: #F7F6F2;
     text-align: center;
 }
-.think .think-container h2{
+
+.think .think-container h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     margin-bottom: 16px;
     color: #002d31;
     padding-top: 80px;
-    
-    
+
+
 }
-.think .think-container p{
+
+.think .think-container p {
     color: #627382;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 24px;
 }
-.think .think-container .small{
+
+.think .think-container .text {
     padding-bottom: 80px;
     margin-top: 24px;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    color:#627382;
+    color: #627382;
 }
- 
-.think-container .btn a{
+
+.think-container .btn a {
     text-decoration: none;
     color: #ffffff;
 }
-footer{
-    background-color:#001931;
+
+footer {
+    background-color: #001931;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
-
     padding: 120px 120px 30px 120px;
 }
 
-.footer-container .social h2{
+.footer-container .social h2 {
     text-align: left;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
-    color:#ffffff;
+    color: #ffffff;
     margin-bottom: 16px;
 
 }
-.footer-container .social img{
-   margin-right: 16px;
+
+.footer-container .social img {
+    margin-right: 16px;
 }
-footer hr{
+
+footer hr {
     margin: 0 120px;
     border-color: #e5e7eb;
 }
-footer p{
+
+footer p {
     padding: 30px 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
 }
+/*END*/

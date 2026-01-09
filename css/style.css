@@ -21,7 +21,7 @@
     font-weight: 700;
     margin-bottom: 16px;
     line-height: 58px;
-    margin-top: 45px;
+    
 }
 
 .section-heading p {
@@ -136,41 +136,53 @@ nav .menu li a {
     background-color: #FBFBFB;
 }
 
-#skills .skill-container .skill-box {
+#skills .skill-container{
+    width: 100%;
+    background-color: #FBFBFB;
+    text-align: center;
+    
+}
+.skill-container .section-heading h2{
+    padding-top: 45px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+.card{
+    background-color: #ffffff;
+    width: 260px;
+    padding: 32px 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card .card-icon{
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 20px;
+    background-color: #ff5c5c;
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    gap: 24px;
-    padding: 0 120px 120px 120px;
-    border-radius: 8px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 8px 0px #0000000f;
-}
-.skill-container .skill-box {
-    margin: 44px 120px 0;
+    justify-content: center;
+    font-size: 22px;
 }
 
 
-.skill-box .skill-card img {
-    text-align: center;
-    background-color: #f95555;
-    padding: 2.5px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-}
-
-.skill-card h3 {
+.card h3 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.skill-card p {
+.card p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
-    margin-bottom: 22px;
-
 }
 
 .brain {
@@ -253,6 +265,11 @@ nav .menu li a {
     font-weight: 400;
     line-height: 20px;
     color:#627382;
+}
+ 
+.think-container .btn a{
+    text-decoration: none;
+    color: #ffffff;
 }
 footer{
     background-color:#001931;
